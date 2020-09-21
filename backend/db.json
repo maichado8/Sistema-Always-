@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "name": "Camiseta Always - Branca - Drop2",
+      "price": "70",
+      "id": 2
+    },
+    {
+      "name": "Camiseta Always - Preta - Drop1",
+      "price": "70",
+      "id": 3
+    },
+    {
+      "name": "Camiseta Always - Preta - Drop3",
+      "price": "70",
+      "id": 4
+    },
+    {
+      "name": "Camiseta Always - Preta - Drop4",
+      "price": "70",
+      "id": 5
+    },
+    {
+      "name": "Camiseta Always - Preta - Drop5",
+      "price": "70",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #eee;
+  color: #1f292e;
+}
+
+.footer > span {
+  font-weight: 300;
+  font-size: 1rem;
+}
+.v-middle {
+  color: #d81966;
+}
+hr{
+  width: 1695px;
+}

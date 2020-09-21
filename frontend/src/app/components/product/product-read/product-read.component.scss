@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  background-color: #eee;
+}
+
+i.edit {
+  color: #d9cd26;
+}
+
+i.delete {
+  color: #c5404e;
+}
+
+.mat-column-action {
+  width: 50px;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+
+    i {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-left: 0px;
+  
+}
+.content {
+  padding: 10px;
+}
+button {
+  margin-right: 10px;
+  margin-top: 10px;
+
+}
+.img1 {
+  background-color: #eee;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 1700px 800px;
+}
+.ajt {
+  margin-left: 10px;
+}
+mat-card{
+  background-color: #eee;
+  border-radius: 10px;
+}

@@ -1,0 +1,22 @@
+<div class="img1">
+  <mat-card>
+    <mat-card-title class="ajt"> Novo Produto </mat-card-title>
+    <form [formGroup]="form">
+      <mat-form-field>
+        <input matInput placeholder="Nome" formControlName="name" name="name">
+        <mat-error *ngIf="getControl('name').invalid">Quantidade minima de caracteres não informada</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Preço (R$)" formControlName="price" name="price">
+        <mat-error *ngIf="getControl('price').invalid">Quantidade minima do valor do preço não informada</mat-error>
+      </mat-form-field>
+    </form>
+
+    <button mat-raised-button [disabled]="form.invalid" (click)="submit()" color="primary">
+      Salvar
+    </button>
+    <button mat-raised-button (click)="cancel()">
+      Cancelar
+    </button>
+  </mat-card>
+</div>

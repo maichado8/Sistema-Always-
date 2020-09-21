@@ -1,0 +1,49 @@
+.sidenav {
+  background-color: #1f292e;
+  background-image: url(/assets/tag.png);
+  background-repeat: no-repeat;
+  background-size: 350px 1000px;
+  width: 200px;
+}
+
+.sidenav a {
+  color: #1f292e;
+}
+.sidenav a:hover {
+  color: #eee;
+  background: #1f292e;
+}
+
+.sidenav i {
+  padding-right: 5px;
+}
+
+.sidenav ul {
+  padding-left: 0px;
+  width: 100%;
+}
+.container {
+  height: calc(100% - (64px * 2));
+  box-sizing: border-box;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 15px;
+  background-color: #eee;
+  margin-left: 200px;
+  width: calc(100vw - 200px);
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 72px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+}

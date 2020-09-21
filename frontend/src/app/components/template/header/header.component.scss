@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  
+}
+.header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #1f292e;
+}
+
+.header .logo {
+  height: 50px;
+  margin-left: 33px;
+  margin-right: 7px;
+}
+.header .title-group {
+  padding-left: 70px;
+}
+.header .title-group i {
+  padding-right: 5px;
+}
+.header span {
+  font-size: 1rem;
+}
+.left {
+  margin-left: 1450px;
+}
+.espc1{
+  margin-left: 20px;
+}
+.hr1 {
+  border: 0;
+  height: 1px;
+  border: none;
+  background-color:#1f292e;
+  margin-top: auto;
+  margin-bottom: 0px;
+  width: 100%;
+}
